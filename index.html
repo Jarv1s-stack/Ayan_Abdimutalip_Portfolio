@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdimutalip Ayan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/ghibli-photo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">Ayan</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="social-icons">
+            <a href="https://github.com/ayanabdimutalip" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ayan-abdimutalip-5a5b5a2b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://t.me/ayanabdimutalip" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+        <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+        <select class="lang-toggle">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+        </select>
+    </header>
+
+    <section id="home" class="welcome">
+        <div class="content">
+            <p>Hello!</p>
+            <h1>I'm Abdimutalip Ayan</h1>
+            <h2>Frontend & ChatBot Developer</h2>
+            <div class="buttons">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="#about" class="btn outline">Learn More</a>
+            </div>
+        </div>
+        <img src="image/ghibli-photo.png" alt="Profile Image" class="profile-img">
+    </section>
+
+    <section id="about" class="about">
+        <img src="image/myPhoto" alt="About Image" class="about-img">
+        <div class="about-content">
+            <h2 class="backSide-about">About</h2>
+            <h2 class="frontSide-about">About me</h2>
+            <p class="content">
+                I am a front-end developer who creates websites quickly and efficiently. Passionate about building interactive and user-friendly web applications.
+            </p>
+            <div class="myDate">
+                <div class="date">
+                    <div class="left-side">
+                        <h3>Fullname:</h3>
+                        <h3>Date of birth:</h3>
+                        <h3>Address:</h3>
+                        <h3>Telegram</h3>
+                    </div>
+                    <div class="right-side">
+                        <h3>Abdimutalip Ayan</h3>
+                        <h3>June 15, 2005</h3>
+                        <h3>Kazakhstan, Almaty</h3>
+                        <h3><a href="https://t.me/ayanabdimutalip" target="_blank">@ayanabdimutalip</a></h3>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">10+</span>
+                        <span class="label">Projects complete</span>
+                    </div>
+                </div>
+                <div class="dateButtons">
+                    <a href="https://drive.google.com/file/d/1uW5i5i5i5i5i5i5i5i5i5i5i5i5i5i5i/view?usp=sharing" target="_blank" class="checkProjects">Download CV</a>
+                    <a href="https://github.com/ayanabdimutalip?tab=repositories" target="_blank" class="checkCertificate">My Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="back-title">Skills</h2>
+            <h2 class="front-title">My Skills</h2>
+            <p>I have expertise in various web technologies and frameworks that help me build modern web applications.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>99%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress html"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>94%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress css"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>97%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress js"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>React</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress react"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>ChatBot Development</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress chatbot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+        <div class="section-header">
+            <h2 class="back-title">Resume</h2>
+            <h2 class="front-title">My Resume</h2>
+            <p>My education and professional experience</p>
+        </div>
+        <div class="resume-container">
+            <div class="resume-column">
+                <h3>Certificates</h3>
+                <div class="certificates-grid">
+                    <div class="certificate-card" onclick="openModal('Advanced-React')">
+                        <h4>Advanced React</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Front-End-Developer-Capstone')">
+                        <h4>Front-End Developer Capstone</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Coding-Interview-Preparation')">
+                        <h4>Coding Interview Preparation</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('HTML-and-CSS-in-depth')">
+                        <h4>HTML and CSS in depth</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Introduction-to-Front-End-Development')">
+                        <h4>Introduction to Front-End Development</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Version-Control')">
+                        <h4>Version Control</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Principles-of-UX-UI-Design')">
+                        <h4>Principles of UX/UI Design</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('Programming-with-JavaScript')">
+                        <h4>Programming with JavaScript</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                    <div class="certificate-card" onclick="openModal('React-Basics')">
+                        <h4>React Basics</h4>
+                        <span>Meta - Mar 2025</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-column">
+                <h3>Skills</h3>
+                <div class="skills-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Git</span>
+                    <span>ChatBot Development</span>
+                    <span>Responsive Design</span>
+                    <span>APIs</span>
+                </div>
+                <h3>Professional Certificate</h3>
+                <div class="professional-cert" onclick="openModal('Meta-Front-End-Developer')">
+                    <img src="image/Meta-Front-End-Developer.png" alt="Meta Front-End Developer Certificate">
+                    <h4>Meta Front-End Developer</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="back-title">Contact</h2>
+            <h2 class="front-title">Get In Touch</h2>
+            <p>Feel free to reach out to me for any questions or opportunities.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location:</h3>
+                        <p>Almaty, Kazakhstan</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email:</h3>
+                        <p>ayanabdimutalip@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone:</h3>
+                        <p>+7 (747) 123-45-67</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="tel" name="phone" placeholder="Your Phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="telegram" placeholder="Telegram username (optional)">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Ayan</div>
+            <p>Frontend & ChatBot Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/ayanabdimutalip" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayan-abdimutalip-5a5b5a2b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/ayanabdimutalip" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Abdimutalip Ayan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Certificates -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">×</span>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-body">
+                <img id="modalImage" alt="Certificate Image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="Integration.js"></script>
+</body>
+</html>
