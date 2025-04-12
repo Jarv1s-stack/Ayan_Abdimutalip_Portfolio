@@ -241,34 +241,34 @@ document.addEventListener('DOMContentLoaded', function() {
     // Certificate Modal
     const certificateData = {
         'Advanced-React': {
-            image: 'image/Advanced-React.png'
+            image: 'Advanced-React.png'
         },
         'Front-End-Developer-Capstone': {
-            image: 'image/Front-End-Developer-Capstone.png'
+            image: 'Front-End-Developer-Capstone.png'
         },
         'Coding-Interview-Preparation': {
-            image: 'image/Coding-Interview-Preparation.png'
+            image: 'Coding-Interview-Preparation.png'
         },
         'HTML-and-CSS-in-depth': {
-            image: 'image/HTML-and-CSS-in-depth.png'
+            image: 'HTML-and-CSS-in-depth.png'
         },
         'Introduction-to-Front-End-Development': {
-            image: 'image/Introduction-to-Front-End-Development.png'
+            image: 'Introduction-to-Front-End-Development.png'
         },
         'Version-Control': {
-            image: 'image/Version-Control.png'
+            image: 'Version-Control.png'
         },
         'Principles-of-UX-UI-Design': {
-            image: 'image/Principles-of-UX-UI-Design.png'
+            image: 'Principles-of-UX-UI-Design.png'
         },
         'Programming-with-JavaScript': {
-            image: 'image/Programming-with-JavaScript.png'
+            image: 'Programming-with-JavaScript.png'
         },
         'React-Basics': {
-            image: 'image/React-Basics.png'
+            image: 'React-Basics.png'
         },
         'Meta-Front-End-Developer': {
-            image: 'image/Meta-Front-End-Developer.png'
+            image: 'Meta-Front-End-Developer.png'
         }
     };
 
