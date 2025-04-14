@@ -976,8 +976,8 @@ footer::before {
         flex-direction: row;
     }
 
-    .left-side, right-side{
-        width: 50%;
+    .left-side{
+        display: none;
     }
 
     .left-side h3, .right-side h3 {
