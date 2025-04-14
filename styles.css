@@ -973,10 +973,11 @@ footer::before {
     }
 
     .date {
-        flex-direction: column;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        flex-direction: row;
+    }
+
+    .left-side, right-side{
+        width: 50%;
     }
 
     .left-side h3, .right-side h3 {
