@@ -976,11 +976,11 @@ footer::before {
         flex-direction: column;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
     }
 
     .left-side h3, .right-side h3 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .stats {
